@@ -1,9 +1,9 @@
 // <copyright file="index.js" company="MicroCODE Incorporated">Copyright © 2021 MicroCODE Incorporated Troy, MI</copyright><author>Timothy J. McGuire</author>
 
 /*
- *      Title:    Bad Bank SERVER INDEX
+ *      Title:    Bad Bank React App SERVER INDEX
  *      Module:   index (badbank:index.js)
- *      Project:  MicroCODE Version of MIT 'Bad Bank'
+ *      Project:  My Version of MIT 'Bad Bank'
  *      Customer: Internal
  *      Creator:  MicroCODE Incorporated
  *      Date:     August 2022
@@ -78,14 +78,20 @@ var mcode = require('./mcodeServer.js');  // CommonJS (CJS) Form: var mcode = re
 
 // Load ExpressJS
 // CommonJS (CJS) Form: var express = require('express');
-var express = require('express');
+const express = require('express');
 
 // Instantiate ExpressJS
 // CommonJS (CJS) Form: var app = express();
-var app = express();
+const app = express();
 
 // configure express to serve static files from public directory
 app.use(express.static("public"));
+
+// allow Cross Origin Resource Sharing (for development only)
+const cors = require('cors');
+
+// configure CORS to share resources
+app.use(cors());
 
 // Setup server
 // Define a LISTENER with a simple Callback function that logs a response in the console...

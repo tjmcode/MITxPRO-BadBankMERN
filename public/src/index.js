@@ -3,9 +3,9 @@
 // #region  P R E A M B L E
 // #region  D O C U M E N T A T I O N
 /*
- *      Title:    MicroCODE Bad Bank React App
+ *      Title:    Bad Bank React App CLIENT INDEX
  *      Module:   Modules (./index.js)
- *      Project:  MicroCODE Bad Bank React App
+ *      Project:  My version of the Bad Bank React App
  *      Customer: Internal
  *      Creator:  MicroCODE Incorporated
  *      Date:     June 2022
