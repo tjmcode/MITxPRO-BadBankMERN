@@ -63,7 +63,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 import App from './App';
-import {AppContextProvider} from './Components/AppContext';
+import {AppContextProvider} from './components/AppContext';
 
 import reportWebVitals from './reportWebVitals';
 

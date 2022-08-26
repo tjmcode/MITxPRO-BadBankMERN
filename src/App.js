@@ -62,15 +62,15 @@ import React, {useContext} from 'react';
 
 import {HashRouter, Routes, Route} from 'react-router-dom';
 
-import {AppContext} from './Components/AppContext';
+import {AppContext} from './components/AppContext';
 
-import NavBar from './Components/NavBar';
-import Account from './Components/Account';
-import AllData from './Components/AllData';
-import Deposit from './Components/Deposit';
-import Home from './Components/Home';
-import Login from './Components/Login';
-import Withdraw from './Components/Withdraw';
+import NavBar from './components/NavBar';
+import Account from './components/Account';
+import AllData from './components/AllData';
+import Deposit from './components/Deposit';
+import Home from './components/Home';
+import Login from './components/Login';
+import Withdraw from './components/Withdraw';
 
 import './App.css';
 
