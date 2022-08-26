@@ -1,6 +1,8 @@
 {
   "name": "badbankapp",
   "version": "0.4.0",
+  "description": "Bad Bank refactored to MERN Architecture",
+  "main": "index.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
