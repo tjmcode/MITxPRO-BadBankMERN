@@ -1,10 +1,10 @@
 // #region  H E A D E R
-// <copyright file="context.js" company="MicroCODE Incorporated">Copyright © 2022 MicroCODE, Inc. Troy, MI</copyright><author>Timothy J. McGuire</author>
+// <copyright file="AppContext.js" company="MicroCODE Incorporated">Copyright © 2022 MicroCODE, Inc. Troy, MI</copyright><author>Timothy J. McGuire</author>
 // #region  P R E A M B L E
 // #region  D O C U M E N T A T I O N
 /*
  *      Title:    MicroCODE Bad Bank Context
- *      Module:   Modules (./context.js)
+ *      Module:   Modules (./AppContext.js)
  *      Project:  MicroCODE Common Code
  *      Customer: Internal
  *      Creator:  MicroCODE Incorporated
@@ -98,7 +98,7 @@ const AppContext = React.createContext(defaultValue);
 // Our global Context Provider
 const AppContextProvider = (props) =>
 {
-    const [Version, setVersion] = useState("Version 0.3.0");
+    const [Version, setVersion] = useState("Version 0.4.0");
     const [LoggedIn, setLoggedIn] = useState(false);
     const [UserIndex, setUserIndex] = useState(0);
     const [CurrentUser, setCurrentUser] = useState('');
