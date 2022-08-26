@@ -53,11 +53,11 @@ localhost:3000
 
 * Demonstration of app startup...
 
-<p align="left"><img src=".\public\app-startup.png" width="720" title="Server Startup..."></p>
+<p align="left"><img src=".\public\images\app-startup.png" width="720" title="Server Startup..."></p>
 
 * Example of app u.i...
 
-<p align="left"><img src=".\public\app-ui.png" width="720" title="App U.I..."></p>
+<p align="left"><img src=".\public\images\app-ui.png" width="720" title="App U.I..."></p>
 
 * Demonstration of the React Bad Bank... (https://youtu.be/hctvo-EFqe4.mp4)
 
